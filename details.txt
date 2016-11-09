@@ -1,1 +1,6 @@
-					HYPE - It's Just the Beginning
+						HYPE - It's Just the Beginning
+System Requirements:
+1. Ubuntu 14.04 or later
+2. gcc package installed/updated
+3. VLC Media Player pre-installed
+4. Updated Sound and Display Drivers
