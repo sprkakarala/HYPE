@@ -26,7 +26,7 @@ int main(int argc,char *argv[])
     }
   server.sin_family = AF_INET;
   server.sin_port = htons(atoi(argv[1]));
-  server.sin_addr.s_addr = inet_addr("192.168.43.23");
+  server.sin_addr.s_addr = inet_addr("192.168.43.23");// IP Address of the host
   k = connect(sock,(struct sockaddr*)&server, sizeof(server));
   if(k == -1)
     {
